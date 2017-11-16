@@ -1,15 +1,9 @@
-# Git 1.8.3.1 RPM from Amazon Linux
+# Git 1.8.3.1 RPM
 
-These [RPM][rpm] sources are for the `git` package on [Amazon Linux
-AMI][amazon-linux-ami] 2013.09:
-    
-    git-1.8.3.1-1.28.amzn1.src.rpm
+These [RPM][rpm] sources are for the `git` package
 
-It was obtained by the command:
+    git-1.8.3.1-1.28.el6.x86_64.rpm
 
-    get_reference_source -p git
+This `git` package replaces the normal `git` package on CentOS 6.
 
-This `git` package replaces the normal `git` package on CentOS.
-
-[amazon-linux-ami]: http://aws.amazon.com/amazon-linux-ami/
 [rpm]: http://www.rpm.org/
