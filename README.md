@@ -6,4 +6,9 @@ These [RPM][rpm] sources are for the `git` package
 
 This `git` package replaces the normal `git` package on CentOS 6.
 
+Create rpm
+
+    docker-compose build
+    docker-compose run git-rpmbuild-centos6 cp -rv RPMS /tmp
+
 [rpm]: http://www.rpm.org/
